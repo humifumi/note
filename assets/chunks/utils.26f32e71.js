@@ -1,0 +1,1 @@
+function e(t,n){let r=t.toString().padStart(n,"0");return r.substring(r.length-n)}function o(){let t=new Date,n=e(t.getFullYear(),2),r=e(t.getMonth()+1,2),l=e(t.getDate(),2),g=e(t.getHours(),2),a=e(t.getMinutes(),2);return"_"+n+"_"+r+l+"_"+g+a}export{o as g};
